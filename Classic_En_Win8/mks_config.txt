@@ -154,9 +154,9 @@ It will auto heat up if the current temp doesn't reach the target.
 
 >moreitem_button4_cmd:M104 S240 E0;
 
->moreitem_button5_cmd:M290 Z0.1;
+>moreitem_button5_cmd:M290 Z0.02;
 
->moreitem_button6_cmd:M290 Z-0.1;
+>moreitem_button6_cmd:M290 Z-0.02;
 
 >moreitem_button7_cmd:M500;
 
@@ -164,8 +164,8 @@ It will auto heat up if the current temp doesn't reach the target.
 >morefunc_cnt:3
 
 #command setting on button1~6
->morefunc1_cmd:M290 Z0.1;
->morefunc2_cmd:M290 Z-0.1;
+>morefunc1_cmd:M290 Z0.02;
+>morefunc2_cmd:M290 Z-0.02;
 >morefunc3_cmd:M500;
 >morefunc4_cmd:G28;
 >morefunc5_cmd:G28;
