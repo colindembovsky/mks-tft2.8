@@ -152,7 +152,7 @@ It will auto heat up if the current temp doesn't reach the target.
 
 >moreitem_button3_cmd:M140 S70;
 
->moreitem_button4_cmd:M104 S240 E0;
+>moreitem_button4_cmd:G1 Z0.0 F100;
 
 >moreitem_button5_cmd:M290 Z0.02;
 
@@ -218,6 +218,6 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_M110_add_checkSum:0
 
 #Enable function of display error message. (no:0; Yes:1）
->cfg_display_eeror_message:1
+>cfg_display_eeror_message:0
 
 #-----------------------------------------------------------------------
