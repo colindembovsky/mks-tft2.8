@@ -42,7 +42,7 @@
 >cfg_insert_det_module:0
 
 #enable auto off after print finish function (no:0; Yes:1）
->cfg_print_finish_close_Machine:0
+>cfg_print_finish_close_Machine:1
 
 #set PB0 signal when use it for sencond nozzle (high level:1; low level:0)
 >cfg_PB0_trigger_Level:0
@@ -58,7 +58,7 @@
 #########  Filament Change Function  ##############################
 
 #the speed to extrude filament(mm/min)
->cfg_filament_load_speed:1200
+>cfg_filament_load_speed:800
 #the lenght to extrude filament (mm)
 >cfg_filament_load_length:200
 
@@ -152,7 +152,7 @@ It will auto heat up if the current temp doesn't reach the target.
 
 >moreitem_button3_cmd:M140 S70;
 
->moreitem_button4_cmd:G1 Z0.0 F100;
+>moreitem_button4_cmd:G1 Z0.0 F750;
 
 >moreitem_button5_cmd:M290 Z0.02;
 
@@ -215,7 +215,7 @@ It will auto heat up if the current temp doesn't reach the target.
 >cfg_single_nozzle:0
 
 #For the M110 command plus check, the version of Marlin 1.0.2 and below is set to 1, and the other versions are set to 0.
->cfg_M110_add_checkSum:0
+>cfg_M110_add_checkSum:1
 
 #Enable function of display error message. (no:0; Yes:1）
 >cfg_display_eeror_message:0
