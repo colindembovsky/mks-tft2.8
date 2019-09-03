@@ -63,7 +63,7 @@
 >cfg_filament_load_length:200
 
 #the speed to retract filament(mm/min)
->cfg_filament_unload_speed:1200
+>cfg_filament_unload_speed:1500
 #the lenght to retract filament(mm)
 >cfg_filament_unload_length:200
 
@@ -150,7 +150,7 @@ It will auto heat up if the current temp doesn't reach the target.
 
 >moreitem_button2_cmd:M104 S210 E0;
 
->moreitem_button3_cmd:M140 S70;
+>moreitem_button3_cmd:M104 S240 E0;
 
 >moreitem_button4_cmd:G1 Z0.0 F750;
 
